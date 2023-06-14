@@ -1,0 +1,42 @@
+/* base rules */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: black !important
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+/* Navigation */
+
+nav .r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+
+nav .navbar-brand{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav .navbar-nav li a{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    letter-spacing: 0.5em;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+}
