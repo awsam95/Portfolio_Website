@@ -118,4 +118,7 @@ header{
 
 .content-box p {
     color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 30px;
 }

@@ -7,4 +7,14 @@ $(document).ready(function(){
             $(".sticky").removeClass("stickyadd")
         }
     })
-})
+
+    let typed = new Typed(".element", {
+        strings : ["Awsam Barahmeh","a Developer","a Designer","a Businessman"],
+        smartBackspace : true,
+        backSpeed : 100,
+        typeSpeed: 100,
+        loop : true,
+        loopCount : Infinity,
+        startDelay : 1000
+    });
+});
