@@ -30,6 +30,13 @@ p{
     background-color: #EE8683 !important;
     color: #fff !important;
 }
+
+.r-btn:hover{
+    background-color: transparent !important;
+    border: #000 solid 2px !important;
+    color:#000 !important;
+}
+
 /* Navigation */
 
 nav .r-nav{
@@ -191,3 +198,23 @@ header{
     background: #e65f78;
 }
 
+/* Testimony */
+
+.testimony-class .test-item{
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.testimony-class .test-item i{
+    color: gray;
+}
+
+.test-item p.test-name{
+    font-size: 11px;
+}
