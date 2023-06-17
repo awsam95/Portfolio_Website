@@ -34,6 +34,10 @@ $(document).ready(function(){
         offset:'90%'
       });
 
+      let filterized = $('.filter-container').filterizr({
+        animationDuration: 0.5,
+      })
+
       // Owl Carousel
 
       $(".owl-carousel").owlCarousel({
