@@ -35,7 +35,7 @@ $(document).ready(function(){
       });
 
       let filterized = $('.filter-container').filterizr({
-        animationDuration: 0.5,
+        animationDuration: 0.5
       })
 
       // Owl Carousel
